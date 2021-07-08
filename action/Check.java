@@ -26,7 +26,7 @@ public class Check {
         System.out.println(((AppWindow)param[0]).titleString);
 
         String targetFile = "readme.txt";
-        String resultFile_cp932 = "readme.cp932.txt";
+        String resultFile_ms932 = "readme.ms932.txt";
         String resultFile_utf8 = "readme.utf8.txt";
         String resultFile_ujis = "readme.ujis.txt";
 
@@ -73,7 +73,7 @@ public class Check {
             // *******************************************************
             BufferedWriter bw = new BufferedWriter(
                     new OutputStreamWriter(
-                        new FileOutputStream(resultFile_cp932), "CP932"
+                        new FileOutputStream(resultFile_ms932), "MS932"
                     ) 
             );
 
