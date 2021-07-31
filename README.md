@@ -1,4 +1,4 @@
-# java-sample-swing
+# java-swing-package-action
 簡単な Swing ウインドウとボタン
 
 Swing を使用して実行用のウインドウを表示。
