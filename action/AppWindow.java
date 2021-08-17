@@ -8,6 +8,7 @@ public class AppWindow extends BaseWindow {
 
     private JPanel jContentPane = null;
     private JButton jButton = null;
+    private JTextField jText = null;
 
     public int mainWidth = 600;
     public int mainHeight = 400;
@@ -31,6 +32,7 @@ public class AppWindow extends BaseWindow {
                 public void actionPerformed(java.awt.event.ActionEvent e) {
 
                     System.out.println("ボタンがクリックされました");
+                    System.out.println(jText.getText());
 
                     try {
                         // ボタン処理用クラスの呼び出し
@@ -85,6 +87,10 @@ public class AppWindow extends BaseWindow {
             jContentPane = new JPanel();
             jContentPane.setLayout(null);
             jContentPane.add(getJButton(), null);
+
+            jText = new JTextField();
+            jText.setBounds(98, 29, 150, 19);
+            jContentPane.add(jText);
         }
         return jContentPane;
     }

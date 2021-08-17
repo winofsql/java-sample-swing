@@ -39,7 +39,7 @@ public class Check {
 
             // UTF8 として読み込む為の準備
             // ↓【 FileInputStream】
-            InputStreamReader isr = new InputStreamReader(fis, "UTF8");
+            InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
 
             // 行単位で読み込む為の準備
             BufferedReader br = new BufferedReader(isr);
@@ -65,7 +65,7 @@ public class Check {
             // *******************************************************
             br = new BufferedReader(
                     new InputStreamReader(
-                        new FileInputStream(targetFile), "UTF8"
+                        new FileInputStream(targetFile), "UTF-8"
                     ) 
             );
             // *******************************************************
@@ -90,7 +90,7 @@ public class Check {
             // *******************************************************
             br = new BufferedReader(
                     new InputStreamReader(
-                        new FileInputStream(targetFile), "UTF8"
+                        new FileInputStream(targetFile), "UTF-8"
                     ) 
             );
             FileOutputStream fos = new FileOutputStream(resultFile_utf8);
@@ -117,7 +117,7 @@ public class Check {
             // *******************************************************
             br = new BufferedReader(
                     new InputStreamReader(
-                        new FileInputStream(targetFile), "UTF8"
+                        new FileInputStream(targetFile), "UTF-8"
                     ) 
             );
             // *******************************************************
