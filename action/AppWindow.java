@@ -12,7 +12,7 @@ public class AppWindow extends BaseWindow {
 
     public int mainWidth = 600;
     public int mainHeight = 400;
-    public String titleString = "Swing サンプル作成用バッチビルドパッケージ";
+    public String titleString = "Swing 簡易サンプル";
 
     // *****************************************************
     // ボタン作成とクリックイベント

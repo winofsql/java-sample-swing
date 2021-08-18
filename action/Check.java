@@ -25,7 +25,7 @@ public class Check {
         System.out.println("処理開始");
         System.out.println(((AppWindow)param[0]).titleString);
 
-        String targetFile = "readme.txt";
+        String targetFile = "README.md";
         String resultFile_ms932 = "readme.ms932.txt";
         String resultFile_utf8 = "readme.utf8.txt";
         String resultFile_ujis = "readme.ujis.txt";
@@ -34,7 +34,7 @@ public class Check {
 
             // 生のバイトのストリーム
             // キャラクタセットを指定して読み込む為に、使用する
-            // ↓【readme.txt】
+            // ↓【README.md】
             FileInputStream fis = new FileInputStream(targetFile);
 
             // UTF8 として読み込む為の準備
