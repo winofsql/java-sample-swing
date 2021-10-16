@@ -26,9 +26,9 @@ public class Check {
         System.out.println(((AppWindow)param[0]).titleString);
 
         String targetFile = "README.md";
-        String resultFile_ms932 = "readme.ms932.txt";
+        String resultFile_ms932 = "readme.932-txt";
         String resultFile_utf8 = "readme.utf8.txt";
-        String resultFile_ujis = "readme.ujis.txt";
+        String resultFile_ujis = "readme.ujis-txt";
 
         try {
 
