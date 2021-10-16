@@ -89,7 +89,7 @@ public class AppWindow extends BaseWindow {
             jContentPane.add(getJButton(), null);
 
             jText = new JTextField();
-            jText.setBounds(98, 29, 150, 19);
+            jText.setBounds(110, 70, 370, 19);
             jContentPane.add(jText);
         }
         return jContentPane;
